@@ -6,14 +6,14 @@
 //arrow functions refers to the this value of the parent scope where arrow function is defined.
 //parent scoped
 
-function regFunc(){
+function regFunc(){ // a reuglar function getting the name
     console.log('reg Func:', this.name);
 };
-const arrFunc = () => {
+const arrFunc = () => { //a arrow function achieving the name
     console.log('arrow func:', this.name);
 };
 
-const obj1 = {
+const obj1 = { //the object
     name: 'Object1',
     regMethod: regFunc,
     arrMethod: arrFunc
