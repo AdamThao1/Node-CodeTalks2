@@ -22,5 +22,5 @@ const obj1 = {
 regFunc();
 arrFunc();
 
-obj1.regFunc();
-obj1.arrFunc()
+obj1.regMethod();
+obj1.arrMethod()
